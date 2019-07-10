@@ -4,10 +4,10 @@ Esta aplicação fornece uma api em NodeJS que exibe um relatório de corrida de
 
 ### Tecnologias
 
-Este aplicação utiliza as seguintes tecnologias open source:
+Esta aplicação utiliza as seguintes tecnologias open source:
 
-* [Node.js] - evented I/O for the backend.
-* [Express] - fast node.js network app framework.
+* [Node.js]
+* [Express]
 
 ### Instalação
 
