@@ -1,5 +1,6 @@
 "use-strict";
-const service = require("./service");
+const RelatorioService = require("./service");
+const service =  new RelatorioService();
 
 const get = (req, res) => {
 

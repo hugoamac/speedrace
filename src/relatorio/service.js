@@ -244,4 +244,5 @@ class RelatorioService {
 
 }
 
-module.exports = new RelatorioService();
+module.exports = RelatorioService;
+
