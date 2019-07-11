@@ -1,17 +1,20 @@
 # Speed Race Relatório
 
-Esta aplicação fornece uma api em NodeJS que exibe um relatório de corrida de valocidade.
+Esta aplicação fornece uma api em NodeJS que exibe um relatório de uma corrida de kart.
 
 ### Tecnologias
 
-Esta aplicação utiliza as seguintes tecnologias open source:
+Para o desenvolvimento desta aplicação foram utilizadas as seguintes tecnologias open source:
 
 * [Node.js]
 * [Express]
+* [Mocha]
+* [ChaiJS]
+* [SinonJS]
 
 ### Instalação
 
-Esta apicação requer o [Node.js] v8+ para execução.
+Esta aplicação requer o [Node.js] v8+ para execução.
 
 
 Clone este repositório com comando abaixo:
@@ -40,6 +43,14 @@ http://localhost:8080/api/relatorio
 | ------ | ------ | ------ |
 | GET | / | Este recurso exibe boas vindas |
 | GET | /api/relatorio/ | Este recurso exibe o relatório da corrida |
+
+### Testes
+
+Para executar os testes da aplicação  execute:
+
+```sh
+npm test
+```
 
 Licença
 ----
